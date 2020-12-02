@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilesAndObjects", "FilesAndObjects\FilesAndObjects.csproj", "{ECE53F49-E8B4-49F7-A55E-C46761CF4F7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FilesAndObjects", "FilesAndObjects\FilesAndObjects.csproj", "{ECE53F49-E8B4-49F7-A55E-C46761CF4F7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingList", "ShoppingList\ShoppingList.csproj", "{FAF76CFA-0E35-4081-A960-75C37738F687}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadTotalFromShoppingList", "ReadTotalFromShoppingList\ReadTotalFromShoppingList.csproj", "{AFBE5EFF-CC6A-4536-AFC9-F0F980105DB9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{ECE53F49-E8B4-49F7-A55E-C46761CF4F7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ECE53F49-E8B4-49F7-A55E-C46761CF4F7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECE53F49-E8B4-49F7-A55E-C46761CF4F7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAF76CFA-0E35-4081-A960-75C37738F687}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAF76CFA-0E35-4081-A960-75C37738F687}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAF76CFA-0E35-4081-A960-75C37738F687}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAF76CFA-0E35-4081-A960-75C37738F687}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFBE5EFF-CC6A-4536-AFC9-F0F980105DB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFBE5EFF-CC6A-4536-AFC9-F0F980105DB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFBE5EFF-CC6A-4536-AFC9-F0F980105DB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFBE5EFF-CC6A-4536-AFC9-F0F980105DB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
