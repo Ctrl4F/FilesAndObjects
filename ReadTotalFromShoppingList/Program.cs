@@ -15,6 +15,7 @@ namespace ReadTotalFromShoppingList
             {
                 name = _name;
                 price = _price;
+                Console.WriteLine($"Item {name} created.");
             }
             public string Name { get { return name; } }
             public int Price { get { return price; } }
@@ -31,8 +32,18 @@ namespace ReadTotalFromShoppingList
             List<string> linesfromFile = File.ReadAllLines(Path.Combine(filePath, fileName)).ToList();
             foreach(string line in linesfromFile)
             {
-                Console.WriteLine(line);
+                string[] tempArray = line.Split(new char[] { '/' }, StringSplitOptions.RemoveEmptyEntries);
+                Item newItem = new Item(tempArray[0], Int32.Parse(tempArray[1]));
+                shoppingItem.Add(newItem);
             }
+            Console.WriteLine("Your shopping cart:");
+            int total = 0;
+            foreach(Item item in shoppingItem)
+            {
+                Console.WriteLine($"Item. {item.Name}; Price: {item.Price}");
+                total += item.Price;
+            }
+            Console.WriteLine($"Your shopping cart total:");
         }
     }
 }
